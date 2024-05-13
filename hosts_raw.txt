@@ -1,0 +1,9 @@
+# Title: mattintech/scamblock
+#
+# This hosts file is a merged collection of hosts from reputable sources,
+# with a dash of crowd sourcing via GitHub
+
+# Custom Records
+
+0.0.0.0 teamviewer.com
+0.0.0.0 www.teamviewer.com
