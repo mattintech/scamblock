@@ -1,7 +1,7 @@
 
 
 [![latest release](https://img.shields.io/github/release/mattintech/scamblock)](https://github.com/mattintech/scamblock/releases)
-[![license](https://img.shields.io/github/license/mattintech/scamblock)](https://github.com/mattintech/scamblock/blob/master/license.txt)
+[![license](https://img.shields.io/github/license/mattintech/scamblock)](https://raw.githubusercontent.com/mattintech/scamblock/master/LICENSE.txt)
 
 # ScamBlock 
 
@@ -19,9 +19,9 @@ To use this blocklist with Pi-hole, follow these steps:
 1. Log in to your Pi-hole admin interface.
 2. Navigate to Settings > Blocklists.
 3. Add the following URL to your blocklist:
-'''
+```
 https://raw.githubusercontent.com/mattintech/scamblock/master/hosts
-'''
+```
 4. Click "Save and Update" to apply the changes.
 5. Pi-hole will now block DNS requests to the domains listed in the blocklist.
 
